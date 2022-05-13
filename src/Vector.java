@@ -25,6 +25,19 @@ public class Vector {
 
 	}
 
+	
+	
+	
+	
+	public static int getdot() {
+		return n;
+	}
+
+	
+	public static void setdot(int n) {
+		Vector.n = n;
+	}
+
 	public static void main(String[] args) {
 		System.out.print("Input A's x, y, z:");
 		Scanner input = new Scanner(System.in);
